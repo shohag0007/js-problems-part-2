@@ -13,3 +13,25 @@ else if (tim > jim && tim > kim){
 else{
     console.log('kim is the boss');
 }
+
+
+
+function maxOfThree(num1, num2, num3){
+   if(num1 > num2 && num1 > num3){
+    console.log(' num1!');
+}
+else if(num2 > num1 && num2 > num3){
+    console.log(' num2!');
+}
+
+else{
+    console.log('num3!')
+}
+}
+
+
+const threeOf = maxOfThree(50, 79, 85);
+
+
+const max =Math.max(12, 15, 16, 17,);
+console.log(max);
